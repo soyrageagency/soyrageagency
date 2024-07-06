@@ -161,11 +161,6 @@
 
 ----
 
-  <summary><b>⚡ Recent GitHub Activity</b></summary>
-  <br/>
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh00710&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  <br/>
-
 ## :trophy: Git profile Trophies
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=soyrageagency&layout=compact&theme=algolia" alt="soyrageagency" /></a> </p>
