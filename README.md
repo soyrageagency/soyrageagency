@@ -5,8 +5,6 @@
 ![GitHub Stars](https://img.shields.io/github/stars/soyrageagency?style=social)
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/soyrageagency)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/soyrageagency)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:contact@soyrage.es)
 [![Website](https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white)](https://soyrage.es)
 
@@ -67,8 +65,6 @@
 
 ## 📫 *Get in Touch*
 <p align="center">
-  <a href="https://linkedin.com/in/soyrageagency"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/soyrageagency"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white" /></a>
   <a href="mailto:contact@soyrage.es"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white" /></a>
   <a href="https://soyrage.es"><img src="https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white" /></a>
 </p>
