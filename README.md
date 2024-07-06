@@ -163,8 +163,7 @@
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  <br/>
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh00710&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
   <br/>
 
 ## :trophy: Git profile Trophies
