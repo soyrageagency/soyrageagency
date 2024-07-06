@@ -24,7 +24,7 @@
 <br>
 
 ## 🔥 Streak Stats
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=SoyRage&theme=algolia" alt="SoyRage" /></p>
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=soyrageagency&theme=algolia" alt="SoyRage" /></p>
 
 <br>
 
