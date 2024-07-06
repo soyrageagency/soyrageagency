@@ -5,17 +5,18 @@
 ![GitHub Stars](https://img.shields.io/github/stars/soyrageagency?style=social)
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/soyrageagency)
-[![Twitter](https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/soyrageagency)
-[![Gmail](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:soyrageagency@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/soyrageagency)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/soyrageagency)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:contact@soyrage.es)
+[![Website](https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white)](https://soyrage.es)
 
-## 🧑‍💻 About Me
-Passionate developer with a love for technology and innovation. Always eager to learn and improve my skills. Here, you can find my projects and contributions to the open-source community.
+## 🧑‍💻 *About Me*
+*Passionate full-stack developer and influencer from Valencia with a love for technology and innovation. Always eager to learn and improve my skills. Here, you can find my projects and contributions to the open-source community.*
 
-- 📍 **Location**: [City, Country]
-- 📫 **Contact**: [soyrageagency@example.com](mailto:soyrageagency@example.com)
-- 🌱 **Currently Learning**: [Technology/Courses]
-- 💬 **Ask me about**: Web development, software, open-source
+- 📍 **Location**: *Valencia, Spain*
+- 📫 **Contact**: [*contact@soyrage.es*](mailto:contact@soyrage.es)
+- 🌱 **Currently Learning**: *Game development and music production*
+- 💬 **Ask me about**: *Full-stack development, software engineering, open-source*
 
 ## 📈 GitHub Metrics
 <p align="center">
@@ -35,10 +36,10 @@ Passionate developer with a love for technology and innovation. Always eager to 
 
 ## 📊 Activity Graph
 <p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=soyrageagency&theme=react-dark" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&theme=react-dark" alt="Contribution Graph" />
 </p>
 
-## 🚀 Languages and Tools
+## 🚀 *Languages and Tools*
 <p align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
@@ -46,22 +47,28 @@ Passionate developer with a love for technology and innovation. Always eager to 
   <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Lua-2C2D72?style=flat&logo=lua&logoColor=white" />
+  <!-- Add more badges as needed -->
 </p>
 
-## 🌟 Featured Projects
-- [**Project 1**](https://github.com/soyrageagency/project1): Brief description of the project.
-- [**Project 2**](https://github.com/soyrageagency/project2): Brief description of the project.
-- [**Project 3**](https://github.com/soyrageagency/project3): Brief description of the project.
+## 🌟 *Featured Projects*
+- [**Project 1**](https://github.com/soyrageagency/project1): *Brief description of the project.*
+- [**Project 2**](https://github.com/soyrageagency/project2): *Brief description of the project.*
+- [**Project 3**](https://github.com/soyrageagency/project3): *Brief description of the project.*
 
-## ✍️ Blog and Articles
-- [**Article Title 1**](https://blog.example.com/article1): Brief description of the article.
-- [**Article Title 2**](https://blog.example.com/article2): Brief description of the article.
+## ✍️ *Blog and Articles*
+- [**Article Title 1**](https://blog.example.com/article1): *Brief description of the article.*
+- [**Article Title 2**](https://blog.example.com/article2): *Brief description of the article.*
 
-## 📫 Get in Touch
+## 📫 *Get in Touch*
 <p align="center">
-  <a href="https://linkedin.com/in/soyrageagency"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/soyrageagency"><img src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white" /></a>
-  <a href="mailto:soyrageagency@example.com"><img src="https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/soyrageagency"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/soyrageagency"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white" /></a>
+  <a href="mailto:contact@soyrage.es"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white" /></a>
+  <a href="https://soyrage.es"><img src="https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white" /></a>
 </p>
