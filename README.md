@@ -16,6 +16,13 @@
 - 🌱 **Currently Learning**: *Game development and music production*
 - 💬 **Ask me about**: *Full-stack development, software engineering, open-source*
 
+## 🎵 *Currently Listening*
+<p align="center">
+  <a href="https://open.spotify.com/track/your_track_id_here">
+    <img src="https://i.imgur.com/your_image_id_here.png" alt="The Lost Soul Down X Lost Soul by Nbsplv" style="width:300px;height:auto;">
+  </a>
+</p>
+
 ## 📈 GitHub Metrics
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -51,7 +58,8 @@
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/-Lua-2C2D72?style=flat&logo=lua&logoColor=white" />
-  <!-- Add more badges as needed -->
+  <img src="https://img.shields.io/badge/-Adobe%20Photoshop-31A8FF?style=flat&logo=adobe-photoshop&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Adobe%20Premiere%20Pro-9999FF?style=flat&logo=adobe-premiere-pro&logoColor=white" />
 </p>
 
 ## 🌟 *Featured Projects*
@@ -62,6 +70,12 @@
 ## ✍️ *Blog and Articles*
 - [**Article Title 1**](https://blog.example.com/article1): *Brief description of the article.*
 - [**Article Title 2**](https://blog.example.com/article2): *Brief description of the article.*
+
+## 🖥️ *Operating Systems*
+<p align="center">
+  <img src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+</p>
 
 ## 📫 *Get in Touch*
 <p align="center">
