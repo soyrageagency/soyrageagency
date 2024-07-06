@@ -163,7 +163,7 @@
 
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
-   <a href="https://github.com/soyrageagency"><img alt="SoyRage's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=soyrageagency&custom_title=soyrageagency's%20Contribution%20Graph&theme=react-dark" /></a>
+   [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
   <br/>
   <br/>
 
