@@ -63,10 +63,10 @@
 </p>
 
 ## 🌟 *Featured Projects*
-- [**SoyRage Agency**](https://github.com/soyrageagency/project1](https://soyrage.es/)): *Me official website for offer services.*
-- [**PlenixNetwork**](https://plenix.net/): *Me Bussines the hosting services.*
+- [**SoyRage Agency**](https://github.com/soyrageagency/project1](https://soyrage.es/)): *Official website for offer services.*
+- [**PlenixNetwork**](https://plenix.net/): *Me own Bussines the hosting services.*
 - [**Comty**](https://preview.comty.app/account/soyrage): *Im working in this project whit me friends.*
-- [**TrickFM**](https://github.com/soyrageagency/project3](https://radio.stagerp.es/)): *Me radio online.*
+- [**TrickFM**](https://github.com/soyrageagency/project3](https://radio.stagerp.es/)): *Radio online is one the me dreams.*
 
 ## ✍️ *Social Networks*
 - [**YouTube**](https://www.youtube.com/@SoyRage): *Im return 2024.*
