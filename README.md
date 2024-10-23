@@ -63,13 +63,15 @@
 </p>
 
 ## 🌟 *Featured Projects*
-- [**Project 1**](https://github.com/soyrageagency/project1): *Brief description of the project.*
-- [**Project 2**](https://github.com/soyrageagency/project2): *Brief description of the project.*
-- [**Project 3**](https://github.com/soyrageagency/project3): *Brief description of the project.*
+- [**SoyRage Agency**](https://github.com/soyrageagency/project1](https://soyrage.es/)): *Me official website for offer services.*
+- [**PlenixNetwork**](https://plenix.net/): *Me Bussines the hosting services.*
+- [**Comty**](https://preview.comty.app/account/soyrage): *Im working in this project whit me friends.*
+- [**TrickFM**](https://github.com/soyrageagency/project3](https://radio.stagerp.es/)): *Me radio online.*
 
-## ✍️ *Blog and Articles*
-- [**Article Title 1**](https://blog.example.com/article1): *Brief description of the article.*
-- [**Article Title 2**](https://blog.example.com/article2): *Brief description of the article.*
+## ✍️ *Social Networks*
+- [**YouTube**](https://www.youtube.com/@SoyRage): *Im return 2024.*
+- [**TikTok**](https://www.tiktok.com/@soyrageagency): *.*
+- [**Comty**](https://preview.comty.app/account/soyrage): *.*
 
 ## 🖥️ *Operating Systems*
 <p align="center">
