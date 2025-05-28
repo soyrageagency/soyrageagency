@@ -1,50 +1,66 @@
-# Hello, I'm [Soyrage Agency](https://github.com/soyrageagency)! 👋
+# 👋 Hello, I'm [Soyrage Agency](https://github.com/soyrageagency)
 
-![Profile Views](https://komarev.com/ghpvc/?username=soyrageagency&color=blueviolet)
-![GitHub Followers](https://img.shields.io/github/followers/soyrageagency?style=social)
-![GitHub Stars](https://img.shields.io/github/stars/soyrageagency?style=social)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=soyrageagency&color=blueviolet" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/soyrageagency?style=social" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/soyrageagency?style=social" alt="GitHub Stars" />
+</p>
+
+---
 
 ## 🌐 Connect with Me
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:contact@soyrage.es)
 [![Website](https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white)](https://soyrage.es)
 
-## 🧑‍💻 *About Me*
-*Passionate full-stack developer and influencer from Valencia with a love for technology and innovation. Always eager to learn and improve my skills. Here, you can find my projects and contributions to the open-source community.*
+---
 
-- 📍 **Location**: *Valencia, Spain*
-- 📫 **Contact**: [*contact@soyrage.es*](mailto:contact@soyrage.es)
-- 🌱 **Currently Learning**: *Game development and music production*
-- 💬 **Ask me about**: *Full-stack development, software engineering, open-source*
+## 🧑‍💻 About Me
+🎯 *Full-stack developer, content creator, and entrepreneur from Valencia, Spain. Passionate about tech, design, music, and games.*  
+💡 *Always looking to innovate and push the boundaries of what's possible.*  
+🚀 *Lifelong learner with a mission to inspire and build impactful projects.*
 
-## 🎵 *Currently Listening*
+- 📍 **Location**: Valencia, Spain  
+- 📫 **Email**: [contact@soyrage.es](mailto:contact@soyrage.es)  
+- 🌱 **Learning**: Game development, music production  
+- 💬 **Ask me about**: Full-stack development, open-source, digital creativity
+
+---
+
+## 📈 GitHub Stats
+
 <p align="center">
-  <a href="https://open.spotify.com/track/0kbBU3ey5IkKwPvDHXJOry">
-    <img src="https://i.imgur.com/MNbkT91.png" alt="The Lost Soul Down X Lost Soul by Nbsplv" style="width:300px;height:auto;">
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyrageagency&layout=compact&theme=radical" />
 </p>
 
-## 📈 GitHub Metrics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soyrageagency&layout=compact&theme=radical" alt="Top Languages" />
-</p>
+---
 
 ## 🔥 GitHub Streak
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=soyrageagency&theme=radical" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=soyrageagency&theme=radical" />
 </p>
+
+---
 
 ## 🏆 GitHub Trophies
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=soyrageagency&theme=onedark" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=soyrageagency&theme=onedark&margin-w=15&no-frame=true" />
 </p>
+
+---
 
 ## 📊 Activity Graph
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&theme=react-dark" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&theme=react-dark" />
 </p>
 
-## 🚀 *Languages and Tools*
+---
+
+## 🚀 Languages and Tools
+
 <p align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
@@ -58,28 +74,39 @@
   <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/-Lua-2C2D72?style=flat&logo=lua&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Adobe%20Photoshop-31A8FF?style=flat&logo=adobe-photoshop&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Adobe%20Premiere%20Pro-9999FF?style=flat&logo=adobe-premiere-pro&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Photoshop-31A8FF?style=flat&logo=adobe-photoshop&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Premiere%20Pro-9999FF?style=flat&logo=adobe-premiere-pro&logoColor=white" />
 </p>
 
-## 🌟 *Featured Projects*
-- [**SoyRage Agency**](https://github.com/soyrageagency/project1](https://soyrage.es/)): *Official website for offer services.*
-- [**PlenixNetwork**](https://plenix.net/): *Me own Bussines the hosting services.*
-- [**Comty**](https://preview.comty.app/account/soyrage): *Im working in this project whit me friends.*
-- [**TrickFM**](https://github.com/soyrageagency/project3](https://radio.stagerp.es/)): *Radio online is one the me dreams.*
+---
 
-## ✍️ *Social Networks*
-- [**YouTube**](https://www.youtube.com/@SoyRage): *Im return 2024.*
-- [**TikTok**](https://www.tiktok.com/@soyrageagency): *.*
-- [**Comty**](https://preview.comty.app/account/soyrage): *.*
+## 🌟 Featured Projects
 
-## 🖥️ *Operating Systems*
+- 🚀 [**SoyRage Agency**](https://soyrage.es): *Official site offering creative and digital services.*
+- 💾 [**PlenixNetwork**](https://plenix.net): *Hosting services business focused on high performance.*
+- 🤝 [**Comty**](https://preview.comty.app/account/soyrage): *A social project built with friends.*
+- 
+---
+
+## ✨ Social Networks
+
+- 🎥 [**YouTube**](https://www.youtube.com/@SoyRage): *New content coming in 2024!*
+- 🎵 [**TikTok**](https://www.tiktok.com/@soyrageagency)
+- 💬 [**Comty Profile**](https://preview.comty.app/account/soyrage)
+
+---
+
+## 🖥️ Operating Systems
+
 <p align="center">
   <img src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black" />
 </p>
 
-## 📫 *Get in Touch*
+---
+
+## 📫 Get in Touch
+
 <p align="center">
   <a href="mailto:contact@soyrage.es"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white" /></a>
   <a href="https://soyrage.es"><img src="https://img.shields.io/badge/-Website-000000?style=flat&logo=Google-Chrome&logoColor=white" /></a>
