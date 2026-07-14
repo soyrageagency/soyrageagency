@@ -1,101 +1,65 @@
-<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SoyRage — Senior Full-Stack Developer and Infrastructure Engineer — minimalist sunset with rabbit silhouette">
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SoyRage — Senior Full-Stack Developer and Infrastructure Engineer — brand hero with chat bubbles">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"    stop-color="#170E2E"/>
-      <stop offset="0.34" stop-color="#3B1A55"/>
-      <stop offset="0.58" stop-color="#8A2E63"/>
-      <stop offset="0.76" stop-color="#E85D7B"/>
-      <stop offset="0.9"  stop-color="#FF9E6D"/>
-      <stop offset="1"    stop-color="#FFB454"/>
-    </linearGradient>
-    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
-      <stop offset="0"    stop-color="#FFE3B3"/>
-      <stop offset="0.55" stop-color="#FFC97E"/>
-      <stop offset="1"    stop-color="#FFC97E" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFD9A0" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#FFD9A0" stop-opacity="0"/>
+    <pattern id="grid" width="62" height="62" patternUnits="userSpaceOnUse">
+      <path d="M62 0H0V62" fill="none" stroke="#141414" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="tint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.62" stop-color="#CBE9F2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#CBE9F2" stop-opacity="0.55"/>
     </linearGradient>
     <clipPath id="panel"><rect width="1000" height="320" rx="18"/></clipPath>
   </defs>
 
   <style>
     .disp { font-family:'Sora','Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+    .ui   { font-family:'SF Pro Text','Segoe UI',system-ui,Arial,sans-serif; }
     .meta { font-family:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace; }
-    .fade { animation: fin 1s cubic-bezier(.2,.6,.2,1) both; }
-    .d1 { animation-delay:.15s } .d2 { animation-delay:.35s } .d3 { animation-delay:.55s }
-    .d4 { animation-delay:.75s } .d5 { animation-delay:.95s }
+    .fade { animation: fin 0.9s cubic-bezier(.2,.6,.2,1) both; }
+    .d1 { animation-delay:.1s } .d2 { animation-delay:.3s }
+    .pop  { animation: pop .55s cubic-bezier(.3,1.5,.4,1) both; transform-box: fill-box; transform-origin: 50% 100%; }
+    .b1 { animation-delay:.55s } .b2 { animation-delay:.85s }
+    .b3 { animation-delay:1.15s } .b4 { animation-delay:1.45s }
     @keyframes fin { from { opacity:0 } to { opacity:1 } }
-    .breathe { animation: br 6s ease-in-out infinite; }
-    @keyframes br { 0%,100% { opacity:.9 } 50% { opacity:1 } }
+    @keyframes pop { from { opacity:0; transform:scale(.85) } to { opacity:1; transform:scale(1) } }
   </style>
 
   <g clip-path="url(#panel)">
-    <rect width="1000" height="320" fill="url(#sky)"/>
+    <rect width="1000" height="320" fill="#F0EEE9"/>
+    <rect width="1000" height="320" fill="url(#grid)"/>
+    <rect width="1000" height="320" fill="url(#tint)"/>
 
-    <!-- setting sun -->
-    <circle class="breathe" cx="762" cy="250" r="118" fill="url(#sun)"/>
-    <circle cx="762" cy="250" r="76" fill="#FFE3B3" opacity="0.9"/>
+    <!-- wordmark: SOY R AGE, R in brand blue -->
+    <text class="disp fade d1" x="500" y="150" text-anchor="middle" font-size="88" font-weight="800" letter-spacing="6" fill="#141414">SOY<tspan fill="#3BA7E8">R</tspan>AGE</text>
 
-    <!-- dusk clouds -->
-    <g fill="#1C1230" opacity="0.5">
-      <rect x="612" y="196" width="96" height="9" rx="4.5">
-        <animateTransform attributeName="transform" type="translate" values="0 0; 12 0; 0 0" dur="11s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="828" y="176" width="70" height="8" rx="4">
-        <animateTransform attributeName="transform" type="translate" values="0 0; -10 0; 0 0" dur="13s" repeatCount="indefinite"/>
-      </rect>
+    <!-- spaced subtitle -->
+    <text class="meta fade d2" x="500" y="192" text-anchor="middle" font-size="13" letter-spacing="6" fill="#141414" fill-opacity="0.88">FULL-STACK DEVELOPER <tspan fill="#3BA7E8">×</tspan> INFRASTRUCTURE ENGINEER</text>
+
+    <!-- conversation -->
+    
+    <g class="pop b1" transform="rotate(-2.5 432 238)">
+      <rect x="328.0" y="224.5" width="208" height="32" rx="16" fill="#141414" opacity="0.10"/>
+      <rect x="328.0" y="222.0" width="208" height="32" rx="16" fill="#FFFFFF" stroke="#E7E4DC" stroke-width="1"/>
+      <text class="ui" x="432" y="242.5" text-anchor="middle" font-size="13" font-weight="600" fill="#141414">Founder @ SoyRage Agency</text>
     </g>
-
-    <!-- birds -->
-    <g stroke="#1C1230" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8">
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0 0; -14 -4; 0 0" dur="12s" repeatCount="indefinite"/>
-        <path d="M636 150 q5 -6 10 0 q5 -6 10 0"/>
-        <path d="M676 136 q4 -5 8 0 q4 -5 8 0"/>
-        <path d="M702 158 q4 -5 8 0 q4 -5 8 0"/>
-      </g>
+    
+    <g class="pop b2" transform="rotate(2 566 268)">
+      <rect x="428.0" y="254.5" width="276" height="32" rx="16" fill="#141414" opacity="0.10"/>
+      <rect x="428.0" y="252.0" width="276" height="32" rx="16" fill="#3BA7E8"/>
+      <text class="ui" x="566" y="272.5" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Collaborator @ RageStudio ✕ Comty</text>
     </g>
-
-    <!-- rabbit silhouette, backlit by the sun -->
-    <g transform="translate(766 252)">
-      <g fill="#1C1230">
-        <ellipse cx="6" cy="-22" rx="22" ry="22"/>
-        <circle cx="-12" cy="-34" r="13"/>
-        <circle cx="-16" cy="-56" r="13"/>
-        <ellipse cx="-22" cy="-82" rx="5.5" ry="19" transform="rotate(-10 -22 -66)"/>
-        <g>
-          <animateTransform attributeName="transform" type="rotate" values="0;0;11;-4;0" keyTimes="0;.72;.8;.88;1" dur="5.2s" repeatCount="indefinite"/>
-          <ellipse cx="-9" cy="-84" rx="5.5" ry="20" transform="rotate(12 -9 -66)"/>
-        </g>
-        <rect x="-26" y="-14" width="7" height="15" rx="3.5"/>
-        <circle cx="26" cy="-15" r="6.5"/>
-      </g>
+    
+    <g class="pop b3" transform="rotate(-1.5 452 296)">
+      <rect x="326.0" y="282.5" width="252" height="32" rx="16" fill="#141414" opacity="0.10"/>
+      <rect x="326.0" y="280.0" width="252" height="32" rx="16" fill="#FFFFFF" stroke="#E7E4DC" stroke-width="1"/>
+      <text class="ui" x="452" y="300.5" text-anchor="middle" font-size="13" font-weight="600" fill="#141414">Valencia, Spain · open to work.</text>
     </g>
-
-    <!-- ground -->
-    <rect y="252" width="1000" height="68" fill="#1C1230"/>
-    <line x1="0" y1="252" x2="1000" y2="252" stroke="#FFD9A0" stroke-opacity="0.55" stroke-width="1.5"/>
-
-    <!-- ══ typography (left-aligned, corporate) ══ -->
-    <text class="meta fade d1" x="64" y="88" font-size="11" letter-spacing="2.6" fill="#FFF7EA" fill-opacity="0.75">FOUNDER @ SOYRAGE <tspan fill="#FFD9A0">·</tspan> COLLABORATOR @ RAGESTUDIO <tspan fill="#FFD9A0">✕</tspan> COMTY</text>
-
-    <text class="disp fade d2" x="60" y="152" font-size="70" font-weight="800" letter-spacing="10" fill="#FFF7EA">SOYRAGE</text>
-
-    <text class="meta fade d3" x="64" y="188" font-size="12.5" letter-spacing="3" fill="#FFF7EA" fill-opacity="0.9">FULL-STACK DEVELOPER <tspan fill="#FFD9A0">×</tspan> INFRASTRUCTURE ENGINEER</text>
-
-    <rect class="fade d4" x="64" y="206" width="300" height="1.5" fill="url(#rule)"/>
-
-    <!-- bottom meta on ground band -->
-    <g class="fade d5">
-      <circle cx="70" cy="288" r="3.5" fill="#FFB454">
-        <animate attributeName="opacity" values="1;.35;1" dur="2.8s" repeatCount="indefinite"/>
-      </circle>
-      <text class="meta" x="84" y="292" font-size="11" letter-spacing="2.2" fill="#FFF7EA" fill-opacity="0.8">AVAILABLE FOR AMBITIOUS PROJECTS</text>
-      <text class="meta" x="936" y="292" text-anchor="end" font-size="11" letter-spacing="2.2" fill="#E8C9D8" fill-opacity="0.85">VALENCIA · SPAIN <tspan fill="#FFD9A0">—</tspan> SOYRAGE.ES</text>
+    
+    <g class="pop b4" transform="rotate(3 636 296)">
+      <rect x="605" y="283.5" width="62" height="30" rx="15" fill="#141414" opacity="0.10"/>
+      <rect x="605" y="281" width="62" height="30" rx="15" fill="#FFFFFF" stroke="#E7E4DC" stroke-width="1"/>
+      <circle cx="625" cy="296" r="3.4" fill="#B9B4AA"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="636" cy="296" r="3.4" fill="#B9B4AA"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" begin="0.18s" repeatCount="indefinite"/></circle><circle cx="647" cy="296" r="3.4" fill="#B9B4AA"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.2s" begin="0.36s" repeatCount="indefinite"/></circle>
     </g>
   </g>
 
-  <rect x="0.75" y="0.75" width="998.5" height="318.5" rx="17.25" stroke="#FFD9A0" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="0.6" y="0.6" width="998.8" height="318.8" rx="17.4" stroke="#DDD8CE" stroke-width="1.2"/>
 </svg>

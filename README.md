@@ -34,14 +34,14 @@
 <h2 align="center">⌗&nbsp;&nbsp;ANALYTICS</h2>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&include_all_commits=true&hide_border=true&border_radius=12&bg_color=0D1117&title_color=F2788C&icon_color=FFB454&text_color=8B949E&ring_color=F2788C" alt="GitHub Stats"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=soyrageagency&hide_border=true&border_radius=12&background=0D1117&ring=F2788C&fire=FFB454&currStreakLabel=F2788C&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=F2788C&dates=6E7681&stroke=1E2530" alt="GitHub Streak"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&include_all_commits=true&hide_border=true&border_radius=12&bg_color=F0EEE9&title_color=111111&icon_color=3BA7E8&text_color=6B6B6B&ring_color=3BA7E8" alt="GitHub Stats"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=soyrageagency&hide_border=true&border_radius=12&background=F0EEE9&ring=3BA7E8&fire=111111&currStreakLabel=3BA7E8&currStreakNum=111111&sideNums=111111&sideLabels=3BA7E8&dates=8A857C&stroke=E3E0D9" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&bg_color=0D1117&color=8B949E&line=F2788C&point=FFB454&area=true&area_color=F2788C&hide_border=true&radius=12" width="96%" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&bg_color=F0EEE9&color=6B6B6B&line=3BA7E8&point=111111&area=true&area_color=3BA7E8&hide_border=true&radius=12" width="96%" alt="Contribution Graph"/>
 </div>
 
 <br/>
@@ -83,11 +83,11 @@
 <h2 align="center">⌗&nbsp;&nbsp;CONTACT</h2>
 
 <p align="center">
-  <a href="https://soyrage.es"><img src="https://img.shields.io/badge/WEBSITE-170E2E?style=for-the-badge&logo=googlechrome&logoColor=F2788C" alt="Website"/></a>&nbsp;
-  <a href="mailto:contact@soyrage.es"><img src="https://img.shields.io/badge/EMAIL-170E2E?style=for-the-badge&logo=gmail&logoColor=FFB454" alt="Email"/></a>&nbsp;
-  <a href="https://www.youtube.com/@SoyRage"><img src="https://img.shields.io/badge/YOUTUBE-170E2E?style=for-the-badge&logo=youtube&logoColor=F2788C" alt="YouTube"/></a>&nbsp;
-  <a href="https://www.tiktok.com/@soyrageagency"><img src="https://img.shields.io/badge/TIKTOK-170E2E?style=for-the-badge&logo=tiktok&logoColor=FFB454" alt="TikTok"/></a>&nbsp;
-  <a href="https://github.com/soyrageagency"><img src="https://img.shields.io/badge/GITHUB-170E2E?style=for-the-badge&logo=github&logoColor=F2788C" alt="GitHub"/></a>
+  <a href="https://soyrage.es"><img src="https://img.shields.io/badge/WEBSITE-3BA7E8?style=for-the-badge&logo=googlechrome&logoColor=FFFFFF" alt="Website"/></a>&nbsp;
+  <a href="mailto:contact@soyrage.es"><img src="https://img.shields.io/badge/EMAIL-111111?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/></a>&nbsp;
+  <a href="https://www.youtube.com/@SoyRage"><img src="https://img.shields.io/badge/YOUTUBE-111111?style=for-the-badge&logo=youtube&logoColor=FFFFFF" alt="YouTube"/></a>&nbsp;
+  <a href="https://www.tiktok.com/@soyrageagency"><img src="https://img.shields.io/badge/TIKTOK-111111?style=for-the-badge&logo=tiktok&logoColor=FFFFFF" alt="TikTok"/></a>&nbsp;
+  <a href="https://github.com/soyrageagency"><img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/></a>
 </p>
 
 <br/>
