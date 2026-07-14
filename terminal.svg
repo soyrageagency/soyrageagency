@@ -12,11 +12,11 @@
   <style>
     .t { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace; font-size: 14px; }
     .title { font-size: 12px; letter-spacing: 1.5px; }
-    .p  { fill: #A78BFA; font-weight: 700; }            /* prompt */
+    .p  { fill: #F2788C; font-weight: 700; }            /* prompt */
     .c  { fill: #E6EDF3; }                              /* command */
-    .o  { fill: #8B949E; }                              /* output */
-    .k  { fill: #22D3EE; }                              /* keys / dirs */
-    .s  { fill: #C4B5FD; }                              /* strings */
+    .o  { fill: #93AEB4; }                              /* output */
+    .k  { fill: #35E0F0; }                              /* keys / dirs */
+    .s  { fill: #FFB3C0; }                              /* strings */
     .g  { fill: #34D399; font-weight: 700; }            /* status */
     .dim{ fill: #6E7681; }
     .ln { animation: reveal .5s cubic-bezier(.2,.6,.2,1) both; }
@@ -30,16 +30,16 @@
   </style>
 
   <g clip-path="url(#win)">
-    <rect width="1000" height="430" fill="#0B0E14"/>
+    <rect width="1000" height="430" fill="#08191F"/>
     <rect width="1000" height="430" fill="url(#topsheen)"/>
 
     <!-- title bar -->
-    <rect width="1000" height="44" fill="#10141C"/>
-    <line x1="0" y1="44.5" x2="1000" y2="44.5" stroke="#1E2530"/>
+    <rect width="1000" height="44" fill="#0B222A"/>
+    <line x1="0" y1="44.5" x2="1000" y2="44.5" stroke="#153741"/>
     <circle cx="26" cy="22" r="5.5" fill="#FF5F57"/>
     <circle cx="46" cy="22" r="5.5" fill="#FEBC2E"/>
     <circle cx="66" cy="22" r="5.5" fill="#28C840"/>
-    <text class="t title" x="500" y="26" text-anchor="middle" fill="#8B949E">soyrage@valencia — zsh — 120×32</text>
+    <text class="t title" x="500" y="26" text-anchor="middle" fill="#93AEB4">soyrage@valencia — zsh — 120×32</text>
 
     <!-- session -->
     <text class="t ln a1" x="32" y="86"><tspan class="p">❯</tspan><tspan class="c" dx="10">whoami</tspan></text>
@@ -57,8 +57,8 @@
     <text class="t ln a10" x="32" y="356"><tspan class="dim">{</tspan><tspan class="k" dx="8">"founder"</tspan><tspan class="dim">:</tspan><tspan class="s" dx="6">["SoyRage Agency", "PlenixNetwork"]</tspan><tspan class="dim">,</tspan><tspan class="k" dx="8">"hq"</tspan><tspan class="dim">:</tspan><tspan class="s" dx="6">"Valencia, ES"</tspan><tspan class="dim">,</tspan><tspan class="k" dx="8">"status"</tspan><tspan class="dim">:</tspan><tspan class="g" dx="6">"SHIPPING"</tspan><tspan class="dim" dx="6">}</tspan></text>
 
     <text class="t ln a11" x="32" y="396"><tspan class="p">❯</tspan></text>
-    <rect class="cursor" x="52" y="382" width="9" height="18" fill="#A78BFA"/>
+    <rect class="cursor" x="52" y="382" width="9" height="18" fill="#F2788C"/>
   </g>
 
-  <rect x="0.75" y="0.75" width="998.5" height="428.5" rx="15.25" stroke="#1E2530" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="998.5" height="428.5" rx="15.25" stroke="#153741" stroke-width="1.5"/>
 </svg>
