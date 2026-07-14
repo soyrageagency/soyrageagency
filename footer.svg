@@ -1,0 +1,39 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer — designed and engineered by SoyRage">
+  <defs>
+    <linearGradient id="frule" x1="300" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fglow" cx="50%" cy="120%" r="90%">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="fframe">
+      <rect width="1000" height="150" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace; }
+    .in { animation: fin 1.2s ease-out both; }
+    .f1 { animation-delay: .2s } .f2 { animation-delay: .5s }
+    @keyframes fin { from { opacity: 0 } to { opacity: 1 } }
+    .breathe { animation: breathe 4s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .05 } 50% { opacity: .09 } }
+  </style>
+
+  <g clip-path="url(#fframe)">
+    <rect width="1000" height="150" fill="#07070C"/>
+    <rect width="1000" height="150" fill="url(#fglow)"/>
+
+    <!-- ghost wordmark -->
+    <text class="breathe" x="500" y="128" text-anchor="middle" font-size="120" font-weight="800" letter-spacing="26" fill="#FFFFFF" opacity="0.05">SOYRAGE</text>
+
+    <rect class="in f1" x="300" y="52" width="400" height="1.5" fill="url(#frule)"/>
+
+    <text class="in f2" x="500" y="86" text-anchor="middle" font-size="11.5" letter-spacing="3.5" fill="#8B949E">DESIGNED <tspan fill="#8B5CF6">&amp;</tspan> ENGINEERED BY SOYRAGE <tspan fill="#22D3EE">—</tspan> VALENCIA, SPAIN</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="998.5" height="148.5" rx="15.25" stroke="#8B5CF6" stroke-opacity="0.22" stroke-width="1.5"/>
+</svg>

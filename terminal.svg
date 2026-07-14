@@ -1,0 +1,64 @@
+<svg width="1000" height="430" viewBox="0 0 1000 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal session describing SoyRage's profile">
+  <defs>
+    <clipPath id="win">
+      <rect width="1000" height="430" rx="16"/>
+    </clipPath>
+    <linearGradient id="topsheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .t { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, 'DejaVu Sans Mono', monospace; font-size: 14px; }
+    .title { font-size: 12px; letter-spacing: 1.5px; }
+    .p  { fill: #A78BFA; font-weight: 700; }            /* prompt */
+    .c  { fill: #E6EDF3; }                              /* command */
+    .o  { fill: #8B949E; }                              /* output */
+    .k  { fill: #22D3EE; }                              /* keys / dirs */
+    .s  { fill: #C4B5FD; }                              /* strings */
+    .g  { fill: #34D399; font-weight: 700; }            /* status */
+    .dim{ fill: #6E7681; }
+    .ln { animation: reveal .5s cubic-bezier(.2,.6,.2,1) both; }
+    .a1{animation-delay:.25s}  .a2{animation-delay:.65s}  .a3{animation-delay:1.15s}
+    .a4{animation-delay:1.55s} .a5{animation-delay:2.05s} .a6{animation-delay:2.45s}
+    .a7{animation-delay:2.75s} .a8{animation-delay:3.05s} .a9{animation-delay:3.55s}
+    .a10{animation-delay:3.95s}.a11{animation-delay:4.45s}
+    @keyframes reveal { from { opacity: 0 } to { opacity: 1 } }
+    .cursor { animation: blink 1.1s steps(1) 4.6s infinite; }
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+  </style>
+
+  <g clip-path="url(#win)">
+    <rect width="1000" height="430" fill="#0B0E14"/>
+    <rect width="1000" height="430" fill="url(#topsheen)"/>
+
+    <!-- title bar -->
+    <rect width="1000" height="44" fill="#10141C"/>
+    <line x1="0" y1="44.5" x2="1000" y2="44.5" stroke="#1E2530"/>
+    <circle cx="26" cy="22" r="5.5" fill="#FF5F57"/>
+    <circle cx="46" cy="22" r="5.5" fill="#FEBC2E"/>
+    <circle cx="66" cy="22" r="5.5" fill="#28C840"/>
+    <text class="t title" x="500" y="26" text-anchor="middle" fill="#8B949E">soyrage@valencia — zsh — 120×32</text>
+
+    <!-- session -->
+    <text class="t ln a1" x="32" y="86"><tspan class="p">❯</tspan><tspan class="c" dx="10">whoami</tspan></text>
+    <text class="t ln a2" x="32" y="112"><tspan class="o">SoyRage</tspan><tspan class="dim" dx="8">—</tspan><tspan class="k" dx="8">Senior Full-Stack Developer</tspan><tspan class="dim" dx="8">&amp;</tspan><tspan class="k" dx="8">Infrastructure Engineer</tspan></text>
+
+    <text class="t ln a3" x="32" y="150"><tspan class="p">❯</tspan><tspan class="c" dx="10">ls ~/expertise</tspan></text>
+    <text class="t ln a4" x="32" y="176"><tspan class="k">frontend/</tspan><tspan class="k" dx="22">backend/</tspan><tspan class="k" dx="22">databases/</tspan><tspan class="k" dx="22">cloud/</tspan><tspan class="k" dx="22">devops/</tspan><tspan class="k" dx="22">observability/</tspan><tspan class="k" dx="22">security/</tspan></text>
+
+    <text class="t ln a5" x="32" y="214"><tspan class="p">❯</tspan><tspan class="c" dx="10">cat manifesto.md</tspan></text>
+    <text class="t ln a6" x="32" y="240"><tspan class="s">»</tspan><tspan class="o" dx="10">Architecture first — scalability is a feature, not an afterthought.</tspan></text>
+    <text class="t ln a7" x="32" y="266"><tspan class="s">»</tspan><tspan class="o" dx="10">Automate everything — if it hurts, script it.</tspan></text>
+    <text class="t ln a8" x="32" y="292"><tspan class="s">»</tspan><tspan class="o" dx="10">Ship fast · monitor everything · sleep well.</tspan></text>
+
+    <text class="t ln a9" x="32" y="330"><tspan class="p">❯</tspan><tspan class="c" dx="10">curl -s soyrage.es/api/status</tspan></text>
+    <text class="t ln a10" x="32" y="356"><tspan class="dim">{</tspan><tspan class="k" dx="8">"founder"</tspan><tspan class="dim">:</tspan><tspan class="s" dx="6">["SoyRage Agency", "PlenixNetwork"]</tspan><tspan class="dim">,</tspan><tspan class="k" dx="8">"hq"</tspan><tspan class="dim">:</tspan><tspan class="s" dx="6">"Valencia, ES"</tspan><tspan class="dim">,</tspan><tspan class="k" dx="8">"status"</tspan><tspan class="dim">:</tspan><tspan class="g" dx="6">"SHIPPING"</tspan><tspan class="dim" dx="6">}</tspan></text>
+
+    <text class="t ln a11" x="32" y="396"><tspan class="p">❯</tspan></text>
+    <rect class="cursor" x="52" y="382" width="9" height="18" fill="#A78BFA"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="998.5" height="428.5" rx="15.25" stroke="#1E2530" stroke-width="1.5"/>
+</svg>
