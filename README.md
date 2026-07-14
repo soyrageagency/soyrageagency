@@ -1,6 +1,6 @@
 <!-- ─────────────────────────────  HERO  ───────────────────────────── -->
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="SoyRage — Senior Full-Stack Developer × Infrastructure Engineer"/>
+  <img src="hero.svg" width="100%" alt="SoyRage — Senior Full-Stack Developer × Infrastructure Engineer"/>
 </div>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 <!-- ─────────────────────────────  ABOUT  ──────────────────────────── -->
 <div align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Terminal session — whoami: SoyRage, Senior Full-Stack Developer & Infrastructure Engineer based in Valencia, Spain"/>
+  <img src="terminal.svg" width="100%" alt="Terminal session — whoami: SoyRage, Senior Full-Stack Developer & Infrastructure Engineer based in Valencia, Spain"/>
 </div>
 
 <br/>
@@ -130,5 +130,5 @@
 
 <!-- ─────────────────────────────  FOOTER  ─────────────────────────── -->
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Designed & engineered by SoyRage — Valencia, Spain"/>
+  <img src="footer.svg" width="100%" alt="Designed & engineered by SoyRage — Valencia, Spain"/>
 </div>
