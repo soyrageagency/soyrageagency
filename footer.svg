@@ -1,122 +1,58 @@
-<svg width="1000" height="180" viewBox="0 0 1000 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer — designed and engineered by SoyRage, Valencia, Spain">
+<svg width="1000" height="170" viewBox="0 0 1000 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer — thanks for scrolling — designed and engineered by SoyRage, Valencia, Spain">
   <defs>
-    <clipPath id="fpanel"><rect width="1000" height="180" rx="18"/></clipPath>
-    <pattern id="fhalftone" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="1.7" fill="#FFFFFF" fill-opacity="0.05"/>
-    </pattern>
-    <radialGradient id="fglowTeal" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#0FB4C4" stop-opacity="0.28"/><stop offset="1" stop-color="#0FB4C4" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="fglowCoral" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#F2788C" stop-opacity="0.24"/><stop offset="1" stop-color="#F2788C" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#120A26"/>
+      <stop offset="0.5"  stop-color="#2E1546"/>
+      <stop offset="0.82" stop-color="#6E2657"/>
+      <stop offset="1"    stop-color="#C94B6F"/>
+    </linearGradient>
+    <linearGradient id="frule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#FFD9A0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFD9A0" stop-opacity="0.85"/>
+      <stop offset="1"   stop-color="#FFD9A0" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fpanel"><rect width="1000" height="170" rx="18"/></clipPath>
   </defs>
 
   <style>
-    .disp { font-family:'Fredoka','Baloo 2','Comic Sans MS','Trebuchet MS',Verdana,sans-serif; }
+    .disp { font-family:'Sora','Poppins','Segoe UI','Helvetica Neue',Arial,sans-serif; }
     .meta { font-family:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace; }
-    .breathe { animation: breathe 4.5s ease-in-out infinite; }
-    @keyframes breathe { 0%,100% { opacity:.045 } 50% { opacity:.08 } }
+    .fade { animation: fin 1.1s cubic-bezier(.2,.6,.2,1) both; }
+    .f1 { animation-delay:.15s } .f2 { animation-delay:.35s } .f3 { animation-delay:.55s }
+    @keyframes fin { from { opacity:0 } to { opacity:1 } }
   </style>
 
   <g clip-path="url(#fpanel)">
-    <rect width="1000" height="180" fill="#071A20"/>
-    <ellipse cx="160" cy="36" rx="280" ry="140" fill="url(#fglowTeal)"/>
-    <ellipse cx="860" cy="164" rx="280" ry="140" fill="url(#fglowCoral)"/>
-    <rect width="1000" height="180" fill="url(#fhalftone)"/>
+    <rect width="1000" height="170" fill="url(#dusk)"/>
 
-    <!-- comic speed lines -->
-    <g stroke="#35E0F0" stroke-opacity="0.14" stroke-linecap="round">
-      <line x1="936" y1="16" x2="992" y2="-10" stroke-width="5"/>
-      <line x1="906" y1="34" x2="996" y2="-6" stroke-width="3.5"/>
-      <line x1="12" y1="158" x2="76" y2="188" stroke-width="5"/>
-    </g>
+    <!-- sky content: never below y=104 -->
+    <rect class="fade f1" x="370" y="34" width="260" height="1.5" fill="url(#frule)"/>
+    <text class="disp fade f2" x="500" y="66" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="5" fill="#FFF7EA" fill-opacity="0.95">THANKS FOR SCROLLING</text>
+    <text class="meta fade f3" x="500" y="94" text-anchor="middle" font-size="10.5" letter-spacing="2.4" fill="#C9AEC9">DESIGNED &amp; ENGINEERED BY SOYRAGE <tspan fill="#FFD9A0">—</tspan> VALENCIA, SPAIN</text>
 
-    <!-- ghost wordmark -->
-    <text class="disp breathe" x="500" y="150" text-anchor="middle" font-size="112" font-weight="900" letter-spacing="20" fill="#FFF4E4">SOYRAGE</text>
+    <!-- ground -->
+    <rect y="126" width="1000" height="44" fill="#150A26"/>
+    <line x1="0" y1="126" x2="1000" y2="126" stroke="#FFD9A0" stroke-opacity="0.5" stroke-width="1.5"/>
 
-    <!-- caption box -->
-    <rect x="40" y="54" width="446" height="36" rx="8" fill="#FFF7EA" stroke="#12232A" stroke-width="3"/>
-    <text class="meta" x="58" y="77" font-size="12.5" font-weight="700" letter-spacing="1.4" fill="#12232A">DESIGNED &amp; ENGINEERED BY <tspan fill="#8C2F44">SOYRAGE</tspan></text>
-    <text class="meta" x="58" y="114" font-size="11" letter-spacing="2" fill="#9FB8BE">VALENCIA · SPAIN <tspan fill="#35E0F0">—</tspan> SOYRAGE.ES</text>
+    <!-- ghost wordmark, cropped by the bottom edge (top of glyphs ≈ y=132) -->
+    <text class="disp" x="500" y="218" text-anchor="middle" font-size="120" font-weight="800" letter-spacing="18" fill="#FFF7EA" opacity="0.12">SOYRAGE</text>
 
-    <!-- gear bookend -->
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="0 50 150; 360 50 150" dur="10s" repeatCount="indefinite"/>
-      <rect x="59.5" y="147.5" width="5" height="5" rx="1.6" transform="rotate(0 62.0 150.0)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="56.0" y="156.0" width="5" height="5" rx="1.6" transform="rotate(45 58.5 158.5)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="47.5" y="159.5" width="5" height="5" rx="1.6" transform="rotate(90 50.0 162.0)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="39.0" y="156.0" width="5" height="5" rx="1.6" transform="rotate(135 41.5 158.5)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="35.5" y="147.5" width="5" height="5" rx="1.6" transform="rotate(180 38.0 150.0)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="39.0" y="139.0" width="5" height="5" rx="1.6" transform="rotate(225 41.5 141.5)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="47.5" y="135.5" width="5" height="5" rx="1.6" transform="rotate(270 50.0 138.0)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><rect x="56.0" y="139.0" width="5" height="5" rx="1.6" transform="rotate(315 58.5 141.5)" fill="#0FB4C4" stroke="#12232A" stroke-width="2.5"/><circle cx="50" cy="150" r="10.5" fill="#0FB4C4" stroke="#12232A" stroke-width="3"/><circle cx="50" cy="150" r="4.5" fill="#071A20" stroke="#12232A" stroke-width="2.5"/>
-    </g>
-
-    <!-- rocket flying off -->
-    <g transform="translate(560 118)">
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0 0; 7 -7; 0 0" dur="3.4s" repeatCount="indefinite"/>
-        <g transform="rotate(38) scale(0.72)">
-          <line x1="0" y1="42" x2="0" y2="78" stroke="#FFF4E4" stroke-opacity="0.5" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round">
-            <animate attributeName="stroke-dashoffset" values="0;-22" dur="1s" repeatCount="indefinite"/>
-          </line>
-          <path d="M0 -22 q10 8 10 24 q0 10 -10 16 q-10 -6 -10 -16 q0 -16 10 -24 Z" fill="#FFF7EA" stroke="#12232A" stroke-width="3.5" stroke-linejoin="round"/>
-          <circle cx="0" cy="-2" r="5" fill="#35E0F0" stroke="#12232A" stroke-width="3"/>
-          <path d="M-10 8 l-8 12 l10 -2 Z" fill="#F2788C" stroke="#12232A" stroke-width="3" stroke-linejoin="round"/>
-          <path d="M10 8 l8 12 l-10 -2 Z" fill="#F2788C" stroke="#12232A" stroke-width="3" stroke-linejoin="round"/>
-          <path d="M0 20 q5 8 0 16 q-5 -8 0 -16 Z" fill="#FFB454" stroke="#12232A" stroke-width="2.5">
-            <animate attributeName="opacity" values="1;.45;1" dur=".5s" repeatCount="indefinite"/>
-          </path>
+    <!-- moonlit rabbit on the horizon -->
+    <g transform="translate(884 126) scale(0.58)">
+      <g fill="#FFF7EA" fill-opacity="0.92">
+        <ellipse cx="6" cy="-22" rx="22" ry="22"/>
+        <circle cx="-12" cy="-34" r="13"/>
+        <circle cx="-16" cy="-56" r="13"/>
+        <ellipse cx="-22" cy="-82" rx="5.5" ry="19" transform="rotate(-10 -22 -66)"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="0;0;11;-4;0" keyTimes="0;.72;.8;.88;1" dur="5.2s" repeatCount="indefinite"/>
+          <ellipse cx="-9" cy="-84" rx="5.5" ry="20" transform="rotate(12 -9 -66)"/>
         </g>
+        <rect x="-26" y="-14" width="7" height="15" rx="3.5"/>
+        <circle cx="26" cy="-15" r="6.5"/>
       </g>
-    </g>
-
-    <!-- sparkles -->
-    <g transform="translate(306 34)"><polygon points="0.0,-7.0 1.8,-1.8 7.0,0.0 1.8,1.8 0.0,7.0 -1.8,1.8 -7.0,0.0 -1.8,-1.8" fill="#35E0F0" stroke="#12232A" stroke-width="2.2">
-      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="2.4s" begin="0.4s" repeatCount="indefinite" additive="sum"/>
-    </polygon></g>
-    <g transform="translate(568 28)"><polygon points="0.0,-8.0 2.0,-2.0 8.0,0.0 2.0,2.0 0.0,8.0 -2.0,2.0 -8.0,0.0 -2.0,-2.0" fill="#FFF4E4" stroke="#12232A" stroke-width="2.2">
-      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" begin="1.1s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="2.4s" begin="1.1s" repeatCount="indefinite" additive="sum"/>
-    </polygon></g>
-    <g transform="translate(430 134)"><polygon points="0.0,-6.0 1.5,-1.5 6.0,0.0 1.5,1.5 0.0,6.0 -1.5,1.5 -6.0,0.0 -1.5,-1.5" fill="#35E0F0" stroke="#12232A" stroke-width="2.2">
-      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" begin="1.7s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="2.4s" begin="1.7s" repeatCount="indefinite" additive="sum"/>
-    </polygon></g>
-
-    <!-- speech bubble -->
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="-1.5 713 66; 1.5 713 66; -1.5 713 66" dur="4s" repeatCount="indefinite"/>
-      <polygon points="758,84 792,84 830,126" fill="#FFF7EA" stroke="#12232A" stroke-width="3" stroke-linejoin="round"/>
-      <rect x="606" y="44" width="214" height="42" rx="14" fill="#FFF7EA" stroke="#12232A" stroke-width="3.5"/>
-      <rect x="760" y="82" width="30" height="7" fill="#FFF7EA"/>
-      <text class="disp" x="713" y="71" text-anchor="middle" font-size="15" font-weight="800" letter-spacing="0.8" fill="#12232A">THANKS FOR SCROLLING!</text>
-    </g>
-
-    <!-- mascot peeking over the bottom frame -->
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" repeatCount="indefinite"/>
-      <!-- waving arm -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" values="8 902 178; -7 902 178; 8 902 178" dur="1.7s" repeatCount="indefinite"/>
-        <path d="M902 178 q20 -14 24 -36" stroke="#12232A" stroke-width="14" stroke-linecap="round" fill="none"/>
-        <path d="M902 178 q20 -14 24 -36" stroke="#F3A98F" stroke-width="8" stroke-linecap="round" fill="none"/>
-        <circle cx="927" cy="140" r="7.5" fill="#F3A98F" stroke="#12232A" stroke-width="3.5"/>
-      </g>
-      <!-- head -->
-      <circle cx="850" cy="192" r="44" fill="#F3A98F" stroke="#12232A" stroke-width="4"/>
-      <!-- hair -->
-      <path d="M812 172 q-4 -34 24 -44 l6 16 l10 -22 l10 22 l6 -16 q28 10 24 44 q-10 -18 -40 -18 q-30 0 -40 18 Z" fill="#D65A6E" stroke="#12232A" stroke-width="4" stroke-linejoin="round"/>
-      <!-- headphone band -->
-      <path d="M812 168 q38 -40 76 0" stroke="#12232A" stroke-width="8" fill="none" stroke-linecap="round"/>
-      <!-- eyes just above the edge -->
-      <path d="M833 171 q6 -8 12 0" stroke="#12232A" stroke-width="4" stroke-linecap="round" fill="none"/>
-      <path d="M857 171 q6 -8 12 0" stroke="#12232A" stroke-width="4" stroke-linecap="round" fill="none"/>
     </g>
   </g>
 
-  <!-- comic panel frame -->
-  <rect x="4" y="4" width="992" height="172" rx="16" stroke="#FFF4E4" stroke-opacity="0.95" stroke-width="3"/>
-
-  <!-- gripping fingers on top of the frame -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.2s" repeatCount="indefinite"/>
-    <g><circle cx="796" cy="175" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/><circle cx="806" cy="173" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/><circle cx="816" cy="175" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/></g>
-    <g><circle cx="884" cy="175" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/><circle cx="894" cy="173" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/><circle cx="904" cy="175" r="6" fill="#F3A98F" stroke="#12232A" stroke-width="3"/></g>
-  </g>
+  <rect x="0.75" y="0.75" width="998.5" height="168.5" rx="17.25" stroke="#FFD9A0" stroke-opacity="0.3" stroke-width="1.5"/>
 </svg>

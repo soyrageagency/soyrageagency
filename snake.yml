@@ -23,7 +23,7 @@ jobs:
           github_user_name: soyrageagency
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#F2788C&color_dots=#FFE4E9,#FFB3C0,#F2788C,#D65A6E,#8C2F44
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F2788C&color_dots=#161B22,#3D2129,#8C2F44,#F2788C,#35E0F0
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F2788C&color_dots=#161B22,#3D2129,#8C2F44,#F2788C,#FFB454
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
