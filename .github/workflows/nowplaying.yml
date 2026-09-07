@@ -45,7 +45,7 @@ jobs:
           fi
 
       - name: Generar tarjeta
-        run: python .github/scripts/nowplaying.py "${{ secrets.AZURACAST_API }}" nowplaying.svg
+        run: python .github/scripts/nowplaying.py "${{ secrets.AZURACAST_API }}" nowplaying.svg "https://soyrage.es/trickfm.webp"
 
       - name: Publicar en la rama 'radio'
         run: |
