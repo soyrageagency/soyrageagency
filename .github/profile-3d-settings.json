@@ -1,0 +1,11 @@
+{
+  "type": "season",
+  "backgroundColor": "#F0EEE9",
+  "growingAnimation": true,
+  "contribTextColor": "#111111",
+  "dateTextColor": "#8A857C",
+  "strongColor": "#3BA7E8",
+  "weakColor": "#DCEFFB",
+  "radarColor": "#3BA7E8",
+  "radarLineColor": "#E3E0D9"
+}

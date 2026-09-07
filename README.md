@@ -34,14 +34,21 @@
 <h2 align="center">⌗&nbsp;&nbsp;ANALYTICS</h2>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=soyrageagency&show_icons=true&include_all_commits=true&hide_border=true&border_radius=12&bg_color=F0EEE9&title_color=111111&icon_color=3BA7E8&text_color=6B6B6B&ring_color=3BA7E8" alt="GitHub Stats"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=soyrageagency&theme=github" alt="GitHub Stats"/>
   <img height="170" src="https://streak-stats.demolab.com?user=soyrageagency&hide_border=true&border_radius=12&background=F0EEE9&ring=3BA7E8&fire=111111&currStreakLabel=3BA7E8&currStreakNum=111111&sideNums=111111&sideLabels=3BA7E8&dates=8A857C&stroke=E3E0D9" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soyrageagency&bg_color=F0EEE9&color=6B6B6B&line=3BA7E8&point=111111&area=true&area_color=3BA7E8&hide_border=true&radius=12" width="96%" alt="Contribution Graph"/>
+  <img src="profile-3d-contrib/profile-season-animate.svg" width="96%" alt="3D Contribution Calendar"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soyrageagency&theme=github" alt="Top Languages"/>
+  <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=soyrageagency&theme=github&utcOffset=2" alt="Productive Time"/>
 </div>
 
 <br/>
