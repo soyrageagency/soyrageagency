@@ -105,10 +105,7 @@
 </p>
 
 <p align="center">
-  <sub><samp>
-    <b>AAC-LC</b>&nbsp;320&nbsp;kbps&nbsp;&nbsp;·&nbsp;&nbsp;44.1&nbsp;kHz&nbsp;stereo&nbsp;&nbsp;·&nbsp;&nbsp;<b>24/7</b><br/>
-    <sup>AzuraCast&nbsp;→&nbsp;Liquidsoap&nbsp;→&nbsp;Rocket&nbsp;Streaming&nbsp;Audio&nbsp;Server</sup>
-  </samp></sub>
+  <sub><samp><b>AAC-LC</b>&nbsp;320&nbsp;kbps&nbsp;&nbsp;·&nbsp;&nbsp;48&nbsp;kHz&nbsp;stereo&nbsp;&nbsp;·&nbsp;&nbsp;<b>24/7</b></samp></sub>
 </p>
 
 <br/>
