@@ -41,7 +41,7 @@
 <br/>
 
 <div align="center">
-  <img src="profile-3d-contrib/profile-season-animate.svg" width="96%" alt="3D Contribution Calendar"/>
+  <img src="profile-3d-contrib/profile-3d.svg" width="96%" alt="3D Contribution Calendar"/>
 </div>
 
 <br/>

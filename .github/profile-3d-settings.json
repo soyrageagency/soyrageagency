@@ -1,11 +1,14 @@
 {
   "type": "season",
+  "fileName": "profile-3d.svg",
   "backgroundColor": "#F0EEE9",
-  "growingAnimation": true,
-  "contribTextColor": "#111111",
-  "dateTextColor": "#8A857C",
+  "foregroundColor": "#111111",
   "strongColor": "#3BA7E8",
-  "weakColor": "#DCEFFB",
+  "weakColor": "#8A857C",
   "radarColor": "#3BA7E8",
-  "radarLineColor": "#E3E0D9"
+  "growingAnimation": true,
+  "contribColors1": ["#E3E0D9", "#DCEFFB", "#A8D8F5", "#6FBDEE", "#3BA7E8"],
+  "contribColors2": ["#E3E0D9", "#CFE9FA", "#93CFF2", "#4FB0E9", "#1E7CC2"],
+  "contribColors3": ["#E3E0D9", "#DCEFFB", "#A8D8F5", "#6FBDEE", "#3BA7E8"],
+  "contribColors4": ["#E3E0D9", "#D6D2C8", "#B9B3A6", "#8A857C", "#111111"]
 }
