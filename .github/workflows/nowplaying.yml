@@ -1,0 +1,63 @@
+name: TrickFM Now Playing
+
+# Genera la tarjeta de "sonando ahora" con la caratula real y la publica
+# en la rama huerfana 'radio'.
+#
+# Por que rama huerfana con force-push: la tarjeta pesa ~32 KB y se
+# regenera cada 5 minutos. En una rama normal el historial creceria unos
+# 3 GB al año. Asi solo existe UN commit, siempre reescrito.
+#
+# La URL de la API va en un secreto: los dominios estan tras Cloudflare y
+# escribir la IP de origen aqui la dejaria expuesta publicamente.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"     # 5 min es el minimo que permite GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nowplaying
+  cancel-in-progress: true
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet Pillow
+
+      - name: Comprobar el secreto
+        run: |
+          if [ -z "${{ secrets.AZURACAST_API }}" ]; then
+            echo "::error::Falta el secreto AZURACAST_API."
+            echo "Crealo con la URL de tu API de AzuraCast, por ejemplo:"
+            echo "  gh secret set AZURACAST_API --body 'http://TU_IP:8081/api/nowplaying/1'"
+            exit 1
+          fi
+
+      - name: Generar tarjeta
+        run: python .github/scripts/nowplaying.py "${{ secrets.AZURACAST_API }}" nowplaying.svg
+
+      - name: Publicar en la rama 'radio'
+        run: |
+          OUT=$(mktemp -d)
+          cp nowplaying.svg "$OUT/"
+          cd "$OUT"
+          git init -q
+          git checkout -q -b radio
+          git add nowplaying.svg
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "TrickFM now playing — $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push -q --force \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" radio
+          echo "Publicado en la rama radio"

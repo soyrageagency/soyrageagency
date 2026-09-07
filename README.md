@@ -51,12 +51,6 @@
 <br/>
 
 <div align="center">
-  <img src="metrics.habits.svg" width="96%" alt="Coding habits"/>
-</div>
-
-<br/>
-
-<div align="center">
   <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soyrageagency&theme=github" alt="Top Languages"/>
   <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=soyrageagency&theme=github&utcOffset=2" alt="Productive Time"/>
 </div>
@@ -97,11 +91,11 @@
 <br/>
 
 <!-- ──────────────────────────────  RADIO  ─────────────────────────── -->
-<h2 align="center">⌗&nbsp;&nbsp;TRICKFM</h2>
+<h2 align="center">⌗&nbsp;&nbsp;TRICKFM&nbsp;&nbsp;<sub><sup>ON AIR</sup></sub></h2>
 
 <p align="center">
   <a href="https://soyrage.es/radio">
-    <img src="https://soyrage.es/trickfm.webp" width="150" alt="TrickFM — escuchar en directo"/>
+    <img src="https://raw.githubusercontent.com/soyrageagency/soyrageagency/radio/nowplaying.svg" width="96%" alt="TrickFM — sonando ahora"/>
   </a>
 </p>
 
@@ -111,7 +105,10 @@
 </p>
 
 <p align="center">
-  <sub><samp>AAC-LC 320&nbsp;kbps&nbsp;&nbsp;·&nbsp;&nbsp;44.1&nbsp;kHz stereo&nbsp;&nbsp;·&nbsp;&nbsp;24/7</samp></sub>
+  <sub><samp>
+    <b>AAC-LC</b>&nbsp;320&nbsp;kbps&nbsp;&nbsp;·&nbsp;&nbsp;44.1&nbsp;kHz&nbsp;stereo&nbsp;&nbsp;·&nbsp;&nbsp;<b>24/7</b><br/>
+    <sup>AzuraCast&nbsp;→&nbsp;Liquidsoap&nbsp;→&nbsp;Rocket&nbsp;Streaming&nbsp;Audio&nbsp;Server</sup>
+  </samp></sub>
 </p>
 
 <br/>
