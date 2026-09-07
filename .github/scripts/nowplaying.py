@@ -203,6 +203,14 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"
       values="0 0; 0 -5; 0 0" dur="7s" repeatCount="indefinite"
       calcMode="spline" keyTimes="0;0.5;1"
       keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <!-- El logo es blanco sobre transparente: sin placa oscura detras se
+         difumina contra el fondo crema. -->
+    <circle cx="{CXC}" cy="{LOGO_Y + LOGO_PX // 2}" r="{LOGO_PX // 2 + 16}"
+            fill="{ACCENT}" opacity="0.28" filter="url(#soft)"/>
+    <circle cx="{CXC}" cy="{LOGO_Y + LOGO_PX // 2}" r="{LOGO_PX // 2 + 4}"
+            fill="#141619"/>
+    <circle cx="{CXC}" cy="{LOGO_Y + LOGO_PX // 2}" r="{LOGO_PX // 2 + 4}"
+            fill="none" stroke="{ACCENT}" stroke-opacity="0.55" stroke-width="1.5"/>
     {logo_block}
   </g>
 
