@@ -4,6 +4,10 @@
 </div>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=700&color=3BA7E8&center=true&vCenter=true&width=760&height=45&lines=Senior+Full-Stack+Developer;Infrastructure+%26+DevOps+Engineer;Valencia%2C+Spain" alt="Senior Full-Stack Developer"/>
+</p>
+
+<p align="center">
   <samp>
     <a href="https://soyrage.es">soyrage.es</a>&nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="mailto:contact@soyrage.es">contact@soyrage.es</a>&nbsp;&nbsp;·&nbsp;&nbsp;
@@ -47,6 +51,12 @@
 <br/>
 
 <div align="center">
+  <img src="metrics.habits.svg" width="96%" alt="Coding habits"/>
+</div>
+
+<br/>
+
+<div align="center">
   <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soyrageagency&theme=github" alt="Top Languages"/>
   <img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=soyrageagency&theme=github&utcOffset=2" alt="Productive Time"/>
 </div>
@@ -83,6 +93,26 @@
     <td align="right"><sub><code>React</code> <code>Node</code> <code>MongoDB</code> <code>WS</code></sub></td>
   </tr>
 </table>
+
+<br/>
+
+<!-- ──────────────────────────────  RADIO  ─────────────────────────── -->
+<h2 align="center">⌗&nbsp;&nbsp;TRICKFM</h2>
+
+<p align="center">
+  <a href="https://soyrage.es/radio">
+    <img src="https://soyrage.es/trickfm.webp" width="150" alt="TrickFM — escuchar en directo"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://soyrage.es/radio"><img src="https://img.shields.io/badge/▶%20LISTEN%20LIVE-3BA7E8?style=for-the-badge&logoColor=FFFFFF" alt="Listen live"/></a>&nbsp;
+  <a href="https://stream.soyrage.es/"><img src="https://img.shields.io/badge/DIRECT%20STREAM-111111?style=for-the-badge&logo=applemusic&logoColor=FFFFFF" alt="Direct stream"/></a>
+</p>
+
+<p align="center">
+  <sub><samp>AAC-LC 320&nbsp;kbps&nbsp;&nbsp;·&nbsp;&nbsp;44.1&nbsp;kHz stereo&nbsp;&nbsp;·&nbsp;&nbsp;24/7</samp></sub>
+</p>
 
 <br/>
 

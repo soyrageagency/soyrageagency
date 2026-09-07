@@ -1,0 +1,40 @@
+name: Coding Habits
+
+# Panel generado DENTRO del repo, como el calendario 3D y el snake,
+# para no depender del Vercel de terceros.
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  habits:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: soyrageagency
+          filename: metrics.habits.svg
+          base: ""
+          config_timezone: Europe/Madrid
+          config_output: svg
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          plugin_habits_facts: yes
+          extras_css: |
+            body, .background { background: #F0EEE9 !important; }
+            h2, .title { color: #111111 !important; }
+            .field, .value, td, th { color: #6B6B6B !important; }
